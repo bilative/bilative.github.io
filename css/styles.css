@@ -313,6 +313,7 @@ table {
   border-collapse: collapse;
 }
 
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -368,6 +369,10 @@ select {
   cursor: pointer;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 select {
   word-wrap: normal;
 }
